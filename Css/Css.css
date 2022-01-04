@@ -1,0 +1,117 @@
+body {
+    background-color: #110f0fea;
+}
+
+header,
+.alert {
+    z-index: 100;
+}
+
+.description {
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+}
+
+.description:hover {
+    height: 80px;
+}
+
+.carrito {
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.table__productos {
+    display: flex;
+}
+
+.table__productos>img {
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__cantidad>input {
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.hide,
+.remove {
+    display: none;
+}
+
+
+/*Texto del Home*/
+
+.texto {
+    text-align: auto;
+    color: white;
+}
+
+.textoTitulo {
+    font-size: 400%;
+    text-align: center;
+    font-family: 'Brush Script MT';
+}
+
+.texto3 {
+    word-spacing: normal;
+    font-variant-position: normal;
+    text-transform: none, capitalize, lowercase, uppercase;
+    font-family: 'Lucida Bright';
+    text-align: justify;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+}
+
+h2{
+    color: #fff;
+    margin: 7px 0;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+.page-container
+{
+    text-align: center;
+    color: floralwhite
+}
+
+.row b,p
+{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin: auto;
+    color: floralwhite
+    
+
+}
+
+.card-img-top
+{
+    width: 250px;
+    height: 350px;
+}
+
+.card-img-top
+{
+    margin: auto;
+}
